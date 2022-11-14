@@ -9,12 +9,12 @@ authors = ["Kamil Nienałtowski <niekamil@protonmail.com>"]
 python = "^3.7"  # newer versions need env var (https://render.com/docs/python-version)
 flask = "^2.2.2"
 
-[tool.poetry.group.dev.dependencies]
+[tool.poetry.dev-dependencies]
 pre-commit = "^2.20.0"
 flake8 = "^5.0.4"
 black = "^22.10.0"
 mypy = "^0.982"
 
 [build-system]
-requires = ["poetry-core>=1.2"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
